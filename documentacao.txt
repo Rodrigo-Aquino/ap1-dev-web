@@ -9,7 +9,7 @@ estrategia de criação:
 
 cores do site:
 Roxo = #8842EB
-Preto = #000000
+Preto = #FFFFFF
 Amarelo = #FDCB06
 Dica de Aplicação (Regra 60-30-10)
 Para que o site não fique confuso visualmente, aplique as cores escolhidas nesta proporção:
