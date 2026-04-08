@@ -1,0 +1,19 @@
+O site será sobre o que?
+R: O site será de Reforço Escolar
+
+Voltado para as matérias:
+1- Matemática
+2- Português
+3- Física
+4- Química
+OBS: A princípio serão essas matérias pois são as que tenho domínio, entretanto nada impede de fazer parcerias com profissionais de outras áreas, podendo então ser adicionado outras matérias.
+
+Como será os conteúdos?
+R: Abordará teorias(videoaula e pdf) + Questões Resolvidas(videoaula de questões) + sessão de questões de vestibulares(pdf) para o plano ouro
+OBS: quando puder usar JS eu colocarei os exercicios para serem feitos direto pelo site sem a necessidade de baixar o pdf das questões.
+
+Como o site será monetizado?
+R: Será por planos.
+-> Plano 1(Bronze) = escolha até 2 matérias
+-> Plano 2(Prata) = escolha até 3 matérias
+-> Plano 3(Ouro) = Todas as matérias liberadas + questões vestibular conforme cada tópico 
