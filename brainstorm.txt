@@ -4,8 +4,7 @@ R: O site será de Reforço Escolar
 Voltado para as matérias:
 1- Matemática
 2- Português
-3- Física
-4- Química
+3- ciências(física, química e biologia)
 OBS: A princípio serão essas matérias pois são as que tenho domínio, entretanto nada impede de fazer parcerias com profissionais de outras áreas, podendo então ser adicionado outras matérias.
 
 Como será os conteúdos?
