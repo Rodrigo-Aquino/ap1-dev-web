@@ -1,0 +1,18 @@
+estrategia de criação:
+1- fazer todos HTML
+2- depois do html pronto, fazer a estilização do site com CSS
+3- seguir padrão de cores de uma forma moderna
+
+cores do site:
+Paleta "Criatividade e Energia" (Roxo Educacional)
+Muitas edtechs modernas estão fugindo do azul tradicional e migrando para o roxo. É uma cor que estimula a criatividade e a inteligência.
+Roxo Profundo: Para a identidade principal e ícones.
+Lavanda Suave: Para áreas de leitura e respiros no design.
+Amarelo Mostarda: Para detalhes de atenção. O contraste entre roxo e amarelo é dinâmico e moderno.
+
+Dica de Aplicação (Regra 60-30-10)
+Para que o site não fique confuso visualmente, aplique as cores escolhidas nesta proporção:
+60% (Cor Dominante): Geralmente o tom mais claro (fundo).
+30% (Cor Secundária): O tom médio ou escuro (menus, rodapés, títulos).
+10% (Cor de Destaque): A cor mais vibrante (apenas em botões e links importantes).
+
