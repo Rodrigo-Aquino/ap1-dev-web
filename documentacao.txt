@@ -20,6 +20,9 @@ Para que o site não fique confuso visualmente, aplique as cores escolhidas nest
 Fontes: Jaro; tamanho 48
 OBS: link clicado fica amarelo e os outros permanece preto
 
+Conteúdo das Páginas:
+Home(principal)-> conterá as matérias que serão disponibilizadas
+
 
 
 
