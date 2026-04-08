@@ -21,7 +21,13 @@ Fontes: Jaro; tamanho 48
 OBS: link clicado fica amarelo e os outros permanece preto
 
 Conteúdo das Páginas:
-Home(principal)-> conterá as matérias que serão disponibilizadas
+Home(principal)-> conterá as matérias que serão disponibilizadas(clicáveis e direcionarão para os detalhes de cada matéria onde também pode ser encontrada na pagina "Serviços");
+
+Sobre -> conterá as informações(um marketing)pessoal;
+
+Serviços -> conterá os planos e as matérias(detalhes dos conteudos);
+
+Contato -> conterá as informações para contato.
 
 
 
