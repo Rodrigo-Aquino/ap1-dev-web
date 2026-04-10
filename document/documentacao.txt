@@ -1,11 +1,5 @@
 estrategia de criação:
-1- Será usado o figma para prototipar a visualização de como ficará o site
-
-2- fazer todo HTML
-
-3- depois do html pronto, fazer a estilização do site com CSS
-
-4- seguir padrão de cores de uma forma moderna
+Será usado o figma para prototipar a visualização de como ficará o site
 
 cores do site:
 Roxo = #8842EB

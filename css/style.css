@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que bordas não empurrem o layout */
+}
+
+header{
+    height: 155px; /*altura do fundo roxo*/
+    background-color: #8842EB;
+    display: flex;
+    justify-content: space-between; /* quero distribuir os 3 elementos (logo, menu, logo) com espaços iguais entre eles*/ 
+    align-items: center;
+    padding: 0px 40px; /* Margem interna para a logo não colar na borda da tela */
+    width: 100%;
+}
+
+.container-logo {
+    width: 200px;
+}
+
+.container-logo img{
+    width: 100%;
+    height: auto; /*vai manter a proporção sem achatar*/
+    display: block;
+}
+
+
+/*Pai controlando o posicionamento dos itens*/
+.barras-navegacao {
+    display: flex; /*vai colocar os itens lado a lado*/
+    gap: 30px; /*espaço entre cada item*/
+    
+}
+
+
+
+/*Filho controlando a estética*/
+.barras-navegacao a{
+    color: #ffffff;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto; /*permite que o navegador ajuste o desenho (a forma) das letras dependendo do tamanho que elas ocupam na tela.*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    transition: 0.3s;
+    /* VALORES: Horizontal | Vertical | Desfoque | Cor */
+    text-shadow: 3px 3px 0px #4A208F;/*sombra*/
+    text-decoration-line: none;
+}
+
+/* Quando passa o mouse */
+.barras-navegacao a:hover {
+    text-shadow: 0px 0px 15px rgba(255, 204, 0);
+    cursor: pointer; /* Transforma a seta em "mãozinha" */
+    transform: scale(1.1); /* Dá um leve aumento no tamanho */
+}
+
