@@ -4,6 +4,34 @@
     box-sizing: border-box; /* Garante que bordas não empurrem o layout */
 }
 
+/*estilização da barra de rolagem(quero deixar degradê)*/
+/*configurar a largura da barra*/
+::-webkit-scrollbar {
+    width: 20px;
+    
+}
+
+/*fundo da barra*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+}
+
+/*a parte que se move(com o degradê)*/
+::-webkit-scrollbar-thumb {
+    /*to bottom faz meu degradê começar no topo(primeira cor escolhida) - caso eu queira que fiquem de lado é só usar to right*/
+    background: linear-gradient(to bottom, #8842EB, #ffffff, #fdcb06);
+    border-radius: 10px;
+    border: 2px solid #f1f1f1; /*cria uma borda na minha barra*/
+}
+
+/*efeito do mouse na barra*/
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #7234c9, #d9ae05);
+}
+
+
+
 header{
     height: 155px; /*altura do fundo roxo*/
     background-color: #8842EB;
