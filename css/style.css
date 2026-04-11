@@ -31,7 +31,7 @@
 }
 
 
-
+/*INICIO DO HEADER*/
 header{
     height: 155px; /*altura do fundo roxo*/
     background-color: #8842EB;
@@ -83,5 +83,45 @@ header{
     text-shadow: 0px 0px 15px rgba(255, 204, 0);
     cursor: pointer; /* Transforma a seta em "mãozinha" */
     transform: scale(1.1); /* Dá um leve aumento no tamanho */
+}
+/*FIM DO HEADER*/
+
+/*INICIO DO MAIN*/
+.conteudos-home {
+    display: flex;
+    justify-content: center;/*centraliza as materias*/
+    align-items: center;
+    gap: 40px; /*espaço entre as imagens*/
+    padding: 80px 20px; /*aqui eu controlo o espaço para não colar no meu header*/
+    flex-wrap: wrap; /*controle da tela(se for pequena vai para linha de baixo)*/
+}
+
+/*estilizacao das imagens*/
+.conteudos-home div {
+    width: 380px; /*dar um tamanho fixo para divs*/
+    transition: transform 0.3s ease;/*animação ao passar o mouse*/
+}
+
+.conteudos-home img {
+    width: 100%; /*fazer a imagem ocupar toda a div*/
+    height: 300px;
+    object-fit: cover; /*tirar os espaços em branco da propria imagem*/
+    
+    /*estilo da borda*/
+    border: 5px solid #8842eb;
+    border-radius: 25px;
+    box-shadow: 8px 8px 0px #fdcb06;
+}
+
+/*efeitos com mouse passando na imagem*/
+.conteudos-home div:hover {
+    transform: translateY(-15px); /*faz o card subir*/
+
+}
+
+.conteudos-home div:hover img {
+    border-color: #fdcb06; /*a borda muda de roxo para amarelo*/
+    box-shadow: 8px 8px 0px #8842EB; /*a sombra inverte pra roxo*/
+    cursor: pointer; /*muda de seta para mão*/
 }
 
