@@ -8,18 +8,20 @@ header{
     height: 155px; /*altura do fundo roxo*/
     background-color: #8842EB;
     display: flex;
-    justify-content: space-between; /* quero distribuir os 3 elementos (logo, menu, logo) com espaços iguais entre eles*/ 
-    align-items: center;
-    padding: 0px 40px; /* Margem interna para a logo não colar na borda da tela */
-    width: 100%;
+    justify-content: space-between; /*deixa os espaços dos itens(logo e menu) padrão*/ 
+    align-items: center;/*alinha os itens do menu no ao centro do padding*/
+    padding: 0px 70px; /* Margem interna para os itens do menu não colar na borda da tela */
+    width: 100%;/*vai deixar o tamanho da largura padrão*/
 }
+
 
 .container-logo {
     width: 200px;
 }
 
+
 .container-logo img{
-    width: 100%;
+    width: 90%;
     height: auto; /*vai manter a proporção sem achatar*/
     display: block;
 }
