@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;/*deixa o redirecionamento das paginas suaves*/
+}
+
 * {
     margin: 0;
     padding: 0;
