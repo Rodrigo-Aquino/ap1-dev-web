@@ -42,3 +42,34 @@ article p {
     max-width: 700px;
     margin: 0 auto; /*Centraliza o texto caso ele tenha um max-width*/
 }
+
+/*estilizando o botão da pagina*/
+.btn-video {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #FDCB06;
+    color: #8842EB;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 3px solid #8842EB;
+    box-shadow: 5px 5px 0px #4A208F; 
+    transition: all 0.3s ease; /*usei o transition para as animações do mouse serem suaves - o all vai animar todas as propriedades que sofrerem alteração - o 0.3s é o tempo dessa animação - ease é o modo que a a velocidade da animação vai se comportar(ease - começa de vagar, acelera no meio e depois volta a ficar de vagar)*/
+    cursor: pointer;
+}
+
+/*Efeito ao passar o mouse*/
+.btn-video:hover {
+    background-color: #8842EB; /*Inverte as cores*/
+    color: #FDCB06;
+    transform: translateY(-5px); /*Botão sobe um pouco*/
+    box-shadow: 8px 8px 0px #FDCB06; /*Sombra muda para amarelo*/
+}
+
+/* Efeito ao clicar */
+.btn-video:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 0px #FDCB06;
+}
