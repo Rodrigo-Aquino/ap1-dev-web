@@ -239,3 +239,88 @@ footer h3 {
     opacity: 0.8;
 }
 /*FINAL DO FOOTER*/
+
+/*Inicio da responsividade*/
+/*Para Tablets e telas médias(até 1024px)*/
+@media (max-width: 1025px) {
+    header {
+        padding: 0px 30px;
+    }
+
+    .conteudos-home {
+        gap: 20px;
+    }
+
+    .conteudos-home div {
+        width: 45%;/*Mostra dois cards por linha*/
+    }
+}
+
+/*Para Celulares (até 768px)*/
+@media (max-width: 769px) {
+    
+    
+    header {
+        height: auto;
+        flex-direction: column; /*Logo em cima, Menu embaixo*/
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .barras-navegacao {
+        gap: 15px;
+        flex-wrap: wrap; /*Se forem muitos itens, eles quebram linha*/
+        justify-content: center;
+    }
+
+    .barras-navegacao a {
+        font-size: 24px; /*Diminui um pouco a fonte no celular*/
+    }
+
+    
+    .conteudos-home div {
+        width: 90%; /*Um card por linha, ocupando quase a tela toda*/
+    }
+
+    .conteudos-home img {
+        height: 250px; /*Ajusta a altura da imagem para não ficar muito grande*/
+    }
+
+    
+    .footer-principal {
+        flex-direction: column; /*Empilha as 3 colunas do rodapé*/
+        align-items: center;/*Centraliza tudo*/
+        text-align: center;
+        gap: 40px;
+    }
+
+    .menu-rodape ul {
+        display: flex;
+        flex-direction: column; /*Menu do rodapé vira lista vertical*/
+        align-items: center;
+        gap: 15px;
+    }
+
+    .item-rodape {
+        justify-content: center;
+    }
+
+    .container-institucional, .container-redes {
+        align-items: center; /*Garante que o h3 e as imagens fiquem no meio*/
+    }
+
+    .icones-redes {
+        justify-content: center;
+    }
+}
+
+/*Para Celulares Pequenos (até 480px)*/
+@media (max-width: 481px) {
+    .barras-navegacao a {
+        font-size: 20px;
+    }
+    
+    .container-logo {
+        width: 150px; /*Logo menorzinha*/
+    }
+}
