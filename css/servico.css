@@ -1,9 +1,44 @@
 /*Estilo para o container principal da página de serviços*/
 main {
     display: flex;
-    flex-direction: column; /* Coloca um reforço embaixo do outro */
-    align-items: center;    /* Centraliza os cards horizontalmente */
-    gap: 50px;              /* Espaço entre os blocos de Matemática, Português, etc */
-    padding: 60px 20px;     /* Respiro no topo e nas laterais */
-    background-color: #f9f9f9; /* Um fundo leve para destacar os cards brancos */
+    flex-direction: column; /*um reforço embaixo do outro*/
+    align-items: center; /*Centraliza os cards horizontalmente*/
+    gap: 50px; /*Espaço entre os blocos das matérias*/
+    padding: 60px 20px; /*Respiro no topo e nas laterais*/
+    background-color: #f9f9f9;
+}
+
+/*Estilo para cada bloco de matéria(Matemática, Português, Ciências)*/
+article {
+    width: 100%;
+    max-width: 900px; /*Largura máxima para não ficar largo demais em telas grandes*/
+    background-color: #ffffff;
+    padding: 40px;
+    
+    /*Criei essa borda para combinar com a da minha home*/
+    border: 4px solid #8842EB;
+    border-radius: 30px;
+    box-shadow: 10px 10px 0px #fdcb06;
+    
+    text-align: center; /*Centraliza os meus textos e as imagens*/
+}
+
+/*Estilização do título de cada seção*/
+article h1 {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+/*Estilização do conteúdo*/
+article p {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto; /*Centraliza o texto caso ele tenha um max-width*/
 }

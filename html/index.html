@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
+    <!--aqui fica aquele logo pequeno que aparece no nome das paginas-->
     <link rel="icon" type="image/png" href="../images/logoicon.png">
-
+    <!--os links para eu usar a fonte Jaro que usei no meu figma-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <!--chamada para o meu css principal(style)externo-->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-    
+    <!--Parte do Header-->
     <header>
+        <!--imagem do logo principal-->
         <div class="container-logo">
             <img src="../images/logoPrincipal.png" alt="logo principal">
         </div>
-
+        <!--as minhas barras de navegação-->
         <nav class="barras-navegacao">
            <div id="home"><a href="./index.html">Home</a></div>
            <div id="servicos"><a href="./servico.html" >Serviços</a></div>
@@ -29,10 +31,12 @@
         
 
     </header>
-
+    <!--Parte do Main-->
     <main>
+        <!--Na minha seção terá os conteudos das matérias-->
         <section class="conteudos-home">
             <div id="matematica">
+                <!--fiz uma ligação já com o conteudo da matematica que esta na pagina de serviços. fiz a mesma coisa com os outros-->
                 <a href="servico.html#secao-matematica"><img src="../images/mate.png"></a>
             </div>
             <div id="portugues">
@@ -47,8 +51,9 @@
 
 
 
-
+    <!--Parte do footer(meu rodapé)-->
     <footer>
+        <!--Criei essa div principal para deixar mais organizado e conseguir um controle mais geral quando uso o css-->
         <div class="footer-principal">
             <div class="container-menu">
             <h3>Nosso Menu</h3>
@@ -57,6 +62,7 @@
                     <li>
                         <div class="item-rodape">
                             <img src="../images/house-regular.png" alt="pequena logo home">
+                            <!--cada item sendo refenciado a sua respectiva funcionalidade(pagina)-->
                             <a href="index.html">Home</a>
                         </div>
                     </li>
