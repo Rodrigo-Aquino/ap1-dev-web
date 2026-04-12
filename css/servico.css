@@ -1,0 +1,9 @@
+/*Estilo para o container principal da página de serviços*/
+main {
+    display: flex;
+    flex-direction: column; /* Coloca um reforço embaixo do outro */
+    align-items: center;    /* Centraliza os cards horizontalmente */
+    gap: 50px;              /* Espaço entre os blocos de Matemática, Português, etc */
+    padding: 60px 20px;     /* Respiro no topo e nas laterais */
+    background-color: #f9f9f9; /* Um fundo leve para destacar os cards brancos */
+}
