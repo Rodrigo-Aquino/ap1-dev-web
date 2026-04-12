@@ -1,27 +1,53 @@
 estrategia de criação:
-Será usado o figma para prototipar a visualização de como ficará o site
+Será usado o figma para prototipar a visualização de como ficará o site(podendo ocorrer mudanças conforme as ideias forem surgindo e melhorando)
 
 cores do site:
+Escolhi as paletas: roxo, branco e amarelo
+A escolha dessas três cores cria um contraste muito forte e equilibrado, comunicando sensações que fazem todo o sentido para um projeto de Reforço Escolar. Na psicologia das cores e no design, essa combinação transmite uma mistura de autoridade com acolhimento.
+
+roxo = A Cor da Sabedoria e Criatividade;
+branco = A Cor da Clareza e Organização;
+amarelo = A Cor da Energia e Atenção
+
 Roxo = #8842EB
-Preto = #FFFFFF
+Branco = #FFFFFF
 Amarelo = #FDCB06
-Dica de Aplicação (Regra 60-30-10)
-Para que o site não fique confuso visualmente, aplique as cores escolhidas nesta proporção:
-60% (Cor Dominante): Geralmente o tom mais claro (fundo).
-30% (Cor Secundária): O tom médio ou escuro (menus, rodapés, títulos).
-10% (Cor de Destaque): A cor mais vibrante (apenas em botões e links importantes).
 
 Fontes: Jaro; tamanho 48
-OBS: link clicado fica amarelo e os outros permanece preto
+OBS: textos com estilos(animações)
 
 Conteúdo das Páginas:
 Home(principal)-> conterá as matérias que serão disponibilizadas(clicáveis e direcionarão para os detalhes de cada matéria onde também pode ser encontrada na pagina "Serviços");
 
-Sobre -> conterá as informações(um marketing)pessoal;
+Sobre -> conterá as informações(um marketing)pessoal, contendo:
+Missão, Visão e Valores
 
-Serviços -> conterá os planos e as matérias(detalhes dos conteudos);
+Serviços -> conterá as matérias(detalhes dos conteudos com videos) e no futuro conterá os planos de assinatura;
 
-Contato -> conterá as informações para contato.
+Contato -> conterá um formulario para as informações para contato.
+
+No footer: um rodapé organizado em tres pilares:
+Menu, Logo institucional e Redes sociais.
+
+todos os links redirecionam de forma blanck(abre outra aba no navegador) menos os links da propria pagina.
+
+as imagens do meu logo foi criada no canvas, onde peguei um desenho de um livro e escolhi uma fonte que achei pertinente e coloque o nome de Reforço Escolar na cor amarelo(amarelo padrão do meu projeto)
+
+utilizei do site fontawesome.com para pegar os icones das redes sociais e alguns para o menu.
+
+mecanismos de buscas, sanamento de duvidas e melhorias:
+para pesquisas e buscas rapidas de alguma situação na qual me encontrei perdido, utilizei o proprio google para uma resposta rapida.
+para duvidas mais pontuais foi utilizado o gemini para me auxiliar em tais dificuldades.
+
+A respeito do uso de IAs:
+Todo o site foi pensado por mim; todos os conteúdos eu trabalhei neles e arquitetei da minha propria imaginação artistica, todavia, utilizei do gemini para uma melhor eficiencia e como um auxiliar me trouxe boas ideias nas quais debatemos a melhor solução e eu escolhi os melhores insights do nosso debate. Alguns estilos e codigos onde estive preso ele me trouxe uma clareza e tudo que foi passado por ele foi devidamente analizado e pesquisado a fundo por mim.
+
+Sobre Videos:
+Não adicionei nenhum video por enquanto, pois como ficará hospedado nesse inico no gitHub, eu poderia ter problemas com tamanhos dos arquivos.
+Uma solução foi de fazer uma ancoragem(link de ligação) para alguns conteudos interessantes do youtube.
+Os nomes dos caneis foram devidamente mencionados para os devidos créditos.
+No futuro irei continuar esse projeto do site, onde hospedarei de forma profissional e criarei a parte do servidor, ai sim poderei lançar os videos; mas de qualquer modo, deixei pronto as pastas e organizadas.  
+
 
 
 
