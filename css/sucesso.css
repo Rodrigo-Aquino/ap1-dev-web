@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /*Garante que o conteúdo fique centralizado na tela*/
+    padding: 20px;
+    background-color: #fcfcfc;
+}
+
+.container-sucesso {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    border: 5px solid #8842EB;
+    border-radius: 40px;
+    box-shadow: 15px 15px 0px #FDCB06;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/*O ícone de check*/
+.icone-sucesso {
+    font-size: 80px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container-sucesso h1 {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+}
+
+.container-sucesso p {
+    font-family: sans-serif;
+    color: #444;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/*Reutilizando o padrão de botão para o link de volta*/
+.btn-voltar {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #FDCB06;
+    color: #8842EB;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+    font-size: 26px;
+    border: 3px solid #8842EB;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #4A208F;
+    transition: all 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #8842EB;
+    color: #FDCB06;
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 0px #FDCB06;
+}
+
+/*Responsividade*/
+@media (max-width: 481px) {
+    .container-sucesso {
+        padding: 40px 20px;
+    }
+    .container-sucesso h1 {
+        font-size: 36px;
+    }
+}
