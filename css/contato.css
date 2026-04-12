@@ -1,0 +1,112 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #fcfcfc;
+    min-height: 80vh;
+}
+
+.container-contato {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contato-info {
+    text-align: center;
+}
+
+.contato-info h1 {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.contato-info p {
+    font-family: sans-serif;
+    color: #444;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*Estilo do Card do Formulário - (vou seguir o mesmo padrão de estilo focado em cards)*/
+.formulario-contato {
+    background-color: #ffffff;
+    padding: 40px;
+    border: 5px solid #8842EB;
+    border-radius: 30px;
+    box-shadow: 12px 12px 0px #FDCB06;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.grupo-input label {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-size: 20px;
+}
+
+/*Estilizando os Inputs e Textarea*/
+.grupo-input input, 
+.grupo-input select, 
+.grupo-input textarea {
+    padding: 12px 15px;
+    border: 3px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/*Efeito quando o usuário clica no campo*/
+.grupo-input input:focus, 
+.grupo-input select:focus, 
+.grupo-input textarea:focus {
+    border-color: #FDCB06;
+    box-shadow: 0px 0px 10px rgba(253, 203, 6, 0.3);
+}
+
+/*Botão Enviar (Seguindo o padrão do btn-video)*/
+.btn-enviar {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #FDCB06;
+    color: #8842EB;
+    font-family: "Jaro", sans-serif;
+    font-size: 24px;
+    border: 3px solid #8842EB;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #4A208F;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #8842EB;
+    color: #FDCB06;
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 0px #FDCB06;
+}
+
+/*Responsividade*/
+@media (max-width: 481px) {
+    .formulario-contato {
+        padding: 20px;
+    }
+    
+    .contato-info h1 {
+        font-size: 35px;
+    }
+}
