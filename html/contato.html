@@ -42,7 +42,8 @@
                 <h1>Fale Conosco</h1>
                 <p>Tem alguma dúvida ou quer matricular seu filho? Preencha o formulário e nossa equipe entrará em contato o mais rápido possível! ☺️</p>
             </div>
-
+            <!--usei o # no action para mandar os dados para a propria pagina e nao deixar vazio, podendo gerar algum erro de pagina nao encontrada pois ainda criei a parte do servidor-->
+            <!--usei os required nos campos nome e emails para impedir que o usuario envie o formulario com esses campos vazios-->
             <form class="formulario-contato" action="#" method="post">
                 <div class="grupo-input">
                     <label for="nome">Nome do Responsável</label>
@@ -67,7 +68,7 @@
 
                 <div class="grupo-input">
                     <label for="mensagem">Como podemos ajudar?</label>
-                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos um pouco sobre a dificuldade do aluno..."></textarea>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos um pouco sobre a dificuldade do aluno..."></textarea> <!--coloquei um row de 5 para que apareça 5 linhas na area-->
                 </div>
 
                 <button type="submit" class="btn-enviar">ENVIAR MENSAGEM</button>
