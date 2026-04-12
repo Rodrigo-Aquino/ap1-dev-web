@@ -48,6 +48,9 @@ Uma solução foi de fazer uma ancoragem(link de ligação) para alguns conteudo
 Os nomes dos caneis foram devidamente mencionados para os devidos créditos.
 No futuro irei continuar esse projeto do site, onde hospedarei de forma profissional e criarei a parte do servidor, ai sim poderei lançar os videos; mas de qualquer modo, deixei pronto as pastas e organizadas.  
 
+Eu criei uma pagina extra, chamada: sucesso.
+Motivo: queria deixar uma mensagem agradavel para quando o usuario clicasse em enviar no formulario.
+agora tem uma pagina personalizada e bonita e com o botão de voltar para a minha home.
 
 
 
