@@ -21,6 +21,10 @@ main {
 
 .contato-info h1 {
     font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 3px 3px 0px #FDCB06;
     color: #8842EB;
     font-size: 50px;
     margin-bottom: 10px;
