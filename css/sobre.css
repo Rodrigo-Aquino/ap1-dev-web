@@ -1,0 +1,121 @@
+main {
+    padding: 60px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #fcfcfc;
+}
+
+/*Seção de Apresentação*/
+.sobre-apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.sobre-texto h1 {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #444;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.sobre-imagem img {
+    width: 300px;
+    background-color: #8842EB;
+    border-radius: 30%; /*aqui eu pensei na ideia de uma logo meio circular*/
+    border: 5px solid #FFFFFF;
+    box-shadow: 10px 10px 0px #FDCB06;
+}
+
+/*Seção de Valores (deixar no padrão de Cards)*/
+.sobre-valores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.valor-card {
+    background-color: #ffffff;
+    border: 4px solid #8842EB;
+    border-radius: 25px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 8px 8px 0px #FDCB06;
+    transition: 0.3s;
+}
+
+.valor-card:hover {
+    transform: translateY(-10px);
+}
+
+.valor-card h3 {
+    font-family: "Jaro", sans-serif;
+    color: #8842EB;
+    font-weight: 400;
+    font-optical-sizing: auto;/*vai permitir que o navegador ajuste automaticamente a forma das letras dependendo do tamanho que eu escolher*/
+    font-style: normal;/*vai garantir que o tetxo fique da forma que eu coloquei(eliminando possiveis italicos)*/
+    text-shadow: 3px 3px 0px #FDCB06;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/*Seção História*/
+.sobre-historia article {
+    background-color: #8842EB;
+    color: #fff;
+    padding: 50px;
+    border-radius: 40px;
+    border: 5px solid #FDCB06;
+    text-align: center;
+}
+
+.sobre-historia h2 {
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 3px 3px 0px #4A208F;
+    margin-bottom: 20px;
+    color: #FDCB06;
+}
+
+.sobre-historia p {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*Responsividade para a página Sobre*/
+@media (max-width: 769px) {
+    main {
+        padding: 40px 20px;
+    }
+
+    .sobre-apresentacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-texto h1 {
+        font-size: 35px;
+    }
+
+    .sobre-imagem img {
+        width: 250px;
+    }
+}
